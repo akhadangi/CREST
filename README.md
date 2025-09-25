@@ -167,7 +167,7 @@ accelerate launch --multi_gpu --num_processes 4 06_eval.py
 * **MCC**:
 
   $$\mathrm{MCC}=\frac{TP\cdot TN - FP\cdot FN}{\sqrt{(TP+FP)(TP+FN)(TN+FP)(TN+FN)}}$$
-* **Miss**: $$FN / \#\{y=1\}$$
+* **Miss**: $$FN / {y=1}$$
 * **EOD/AOD**: computed when a binary sensitive attribute can be inferred from the text.
 
 ---
