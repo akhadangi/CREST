@@ -3,7 +3,7 @@
 This repo trains a **small LLM**—`apple/OpenELM-450M`—to perform **credit & risk assessment** using **logical, numeric, and verifiable chain-of-thought (CoT)** on the **CALM** benchmark.  
 We convert each tabular sample into a compact **STRUCTURED_COT** (feature contributions → sum-to-logit → sigmoid → threshold), then use a **tutor/verifier** to check the math and feed back **detailed errors** for a verification-in-the-loop (ViL) pass.
 
-> TL;DR: small model + verified CoT ≈ big model performance on several CALM tasks, with auditable rationales.
+> small model + verified CoT ≈ big model performance on several CALM tasks, with auditable rationales.
 
 ---
 
