@@ -180,9 +180,5 @@ accelerate launch --multi_gpu --num_processes 4 06_eval.py
 
 ---
 
-## License
-
-Add your preferred license (e.g., MIT/Apache-2.0) at the repo root.
-
 ```
 ```
