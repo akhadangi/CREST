@@ -179,6 +179,3 @@ accelerate launch --multi_gpu --num_processes 4 06_eval.py
 * Inspiration from **logical CoT + verifier** work in symbolic planning.
 
 ---
-
-```
-```
